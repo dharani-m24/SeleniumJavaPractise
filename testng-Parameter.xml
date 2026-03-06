@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="tests" thread-count="5">
+
+
+    <test  name="Parameter">
+        <parameter name="browser" value="edge"></parameter>
+        <classes>
+            <class name="TestNgPractise.ParamaterTestDemo"></class>
+        </classes>
+    </test >
+
+    <test  name="Parameter2">
+        <parameter name="browser" value="chrome"></parameter>
+        <classes>
+            <class name="TestNgPractise.ParamaterTestDemo"></class>
+        </classes>
+    </test >
+
+</suite>
